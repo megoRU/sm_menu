@@ -54,9 +54,8 @@ public Handler_Eternal_Server(Handle:menu, MenuAction:action, client, slot)
             {
                 new userid = GetClientUserId(client);
                 
-                ServerCommand("sm_psay #%d \"Промокод: скоро будет... | vk.com/eternalcsgo\"", userid);
+                ServerCommand("sm_psay #%d \"Промокод: учеба | vk.com/eternalcsgo\"", userid);
             }
         }
     }
 }
-
