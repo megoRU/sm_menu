@@ -6,7 +6,7 @@ public Plugin:myinfo =
     author      = "mego",
     description = "Server_menu",
     version     = "1.2",
-    url         = "https://eternalserver.ru/bans"
+    url         = "https://megolox.ru/bans"
 }
 
 new Handle: g_Eternal_Server;
@@ -42,7 +42,7 @@ public Handler_Eternal_Server(Handle:menu, MenuAction:action, client, slot)
             {
                 new userid = GetClientUserId(client);
                 
-                ServerCommand("sm_psay #%d \"vk.com/eternalcsgo\"", userid);
+                ServerCommand("sm_psay #%d \" here same text \"", userid);
             }
             else if (StrEqual(info, "2"))
             {
@@ -54,7 +54,7 @@ public Handler_Eternal_Server(Handle:menu, MenuAction:action, client, slot)
             {
                 new userid = GetClientUserId(client);
                 
-                ServerCommand("sm_psay #%d \"Промокод: учеба | vk.com/eternalcsgo\"", userid);
+                ServerCommand("sm_psay #%d \" here same text \"", userid);
             }
         }
     }
